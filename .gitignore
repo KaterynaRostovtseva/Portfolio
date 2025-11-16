@@ -1,0 +1,11 @@
+.DS_Store
+.env
+/node_modules/
+.history
+
+# React Router
+/.react-router/
+/build/
+
+
+.vercel
