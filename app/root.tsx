@@ -4,6 +4,7 @@ import "./app.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { LangProvider } from "./context/LanguageContext";
+import { Analytics } from "@vercel/analytics/next"
 
 export function meta({ }: Route.MetaArgs) {
   return [
@@ -35,6 +36,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <main>{children}</main>
         <Footer />
         </LangProvider>
+        <Analytics />
         <ScrollRestoration />
         <Scripts />
       </body>
