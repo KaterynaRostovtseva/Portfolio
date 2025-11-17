@@ -1,13 +1,15 @@
 interface Props {
-  lang: "ua" | "en";
-  setLang: (lang: "ua" | "en") => void;
+  lang: "en" | "ua";
+  setLang: (lang: "en" | "ua") => void;
+  closeMenu?: () => void; 
 }
 
-export default function LanguageToggle({ lang, setLang }: Props) {
+export default function LanguageToggle({ lang, setLang, closeMenu}: Props) {
   const toggleLang = () => {
-    const next = lang === "ua" ? "en" : "ua";
+    const next = lang === "en" ? "ua" : "en";
     setLang(next);
     localStorage.setItem("lang", next);
+    if (closeMenu) closeMenu(); 
   };
 
   return (
@@ -15,7 +17,7 @@ export default function LanguageToggle({ lang, setLang }: Props) {
       onClick={toggleLang}
       className="flex items-center justify-center w-7 h-7 text-xs rounded-full bg-blue-600 text-white font-semibold active:scale-95 transition"
     >
-      {lang === "ua" ? "UA" : "EN"}
+      {lang === "en" ? "EN" : "UA"}
     </button>
   );
 }

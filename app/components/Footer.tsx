@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import { useEffect, useState } from "react";
 import { ArrowUp } from "lucide-react";
 import { useTranslations } from "../hooks/useTranslations";
 import { useLang } from "../context/LanguageContext";
@@ -6,6 +7,16 @@ import { useLang } from "../context/LanguageContext";
 export default function Footer() {
   const { lang } = useLang();
   const t = useTranslations(lang);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const toggleVisible = () => {
+      setIsVisible(window.scrollY > 20);
+    };
+
+    window.addEventListener("scroll", toggleVisible);
+    return () => window.removeEventListener("scroll", toggleVisible);
+  }, []);
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -31,7 +42,9 @@ export default function Footer() {
         </div>
       </div>
 
-      <button onClick={scrollToTop} aria-label="Scroll to top" className="btn-arrow">
+      <button onClick={scrollToTop} aria-label="Scroll to top"
+        className={`fixed bottom-12 right-6 bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700 transition 
+                    z-50 transform duration-300 ${isVisible ? "opacity-100 scale-100" : "opacity-0 scale-0"}`}>
         <ArrowUp className="w-5 h-5" />
       </button>
 

@@ -4,14 +4,14 @@ export default function ProjectCard({
   tech = [],
   link,
   image,
-  githubText, // <-- добавили пропс
+  githubText, 
 }: {
   title: string;
   description: string;
   tech?: string[];
   link: string;
   image?: string;
-  githubText: string; // <-- тип
+  githubText: string; 
 }) {
   return (
     <div className="flex flex-col justify-between h-full bg-white dark:bg-gray-900 p-6 rounded-xl shadow-md transition hover:shadow-xl ">

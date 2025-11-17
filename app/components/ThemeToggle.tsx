@@ -1,7 +1,12 @@
 import { useState, useEffect } from "react";
 import { Moon, Sun } from "lucide-react";
 
-export default function ThemeToggle() {
+interface Props {
+  closeMenu?: () => void;
+}
+
+
+export default function ThemeToggle({ closeMenu }: Props) {
   const [mounted, setMounted] = useState(false);
   const [theme, setTheme] = useState<"light" | "dark">("light");
 
@@ -19,6 +24,7 @@ export default function ThemeToggle() {
     setTheme(next);
     document.documentElement.classList.toggle("dark", next === "dark");
     localStorage.setItem("theme", next);
+    if (closeMenu) closeMenu(); 
   };
 
   return (

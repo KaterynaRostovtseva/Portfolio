@@ -8,16 +8,16 @@ import { useTranslations } from "../hooks/useTranslations";
 
 
 export default function Header() {
-const { lang, setLang } = useLang();
-const t = useTranslations(lang);
+  const { lang, setLang } = useLang();
+  const t = useTranslations(lang);
 
- const links = [
-  { to: "/#about", label: t.about, id: "about" },
-  { to: "/#skills", label: t.skills, id: "skills" },
-  { to: "/#services", label: t.services, id: "services" },
-  { to: "/#projects", label: t.projects, id: "projects" },
-  { to: "/#contacts", label: t.contacts, id: "contacts" },
-];
+  const links = [
+    { to: "/#about", label: t.about, id: "about" },
+    { to: "/#skills", label: t.skills, id: "skills" },
+    { to: "/#services", label: t.services, id: "services" },
+    { to: "/#projects", label: t.projects, id: "projects" },
+    { to: "/#contacts", label: t.contacts, id: "contacts" },
+  ];
 
   const [activeId, setActiveId] = useState("about");
 
@@ -75,10 +75,11 @@ const t = useTranslations(lang);
           </a>
 
           <div className="hidden md:flex items-center gap-4 ml-8">
+            {/* <div className="flex items-center gap-3 ml-8"> */}
             <ThemeToggle />
             <LanguageToggle lang={lang} setLang={setLang} />
           </div>
-          
+
           <BurgerMenu />
         </div>
       </nav>

@@ -11,10 +11,10 @@ interface LangContextProps {
 const LangContext = createContext<LangContextProps | null>(null);
 
 export function LangProvider({ children }: { children: React.ReactNode }) {
-  const [lang, setLangState] = useState<Lang>("ua");
+  const [lang, setLangState] = useState<Lang>("en");
 
   useEffect(() => {
-    const saved = (localStorage.getItem("lang") as Lang) || "ua";
+    const saved = (localStorage.getItem("lang") as Lang) || "en";
     setLangState(saved);
   }, []);
 

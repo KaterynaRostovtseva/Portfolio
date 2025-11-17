@@ -8,10 +8,10 @@ const projects = [
     title: { ua: "Музичний плеєр", en: "Music Player App" },
     description:
     {
-      ua: "Розробила інтерактивний веб-застосунок для відтворення аудіофайлів, оптимізований для настільних пристроїв.",
+      ua: "Розробила веб-застосунок для відтворення аудіофайлів, оптимізований для настільних пристроїв.",
       en: "Developed an interactive web application for playing audio files, optimized for desktop devices.",
     },
-    tech: ["React", "JavaScript", "Redux Toolkit", "React-Beautiful-DnD", "Material UI", "GraphQL"],
+    tech: ["React", "JavaScript", "Redux Toolkit", "Material UI", "GraphQL"],
     link: "https://github.com/KaterynaRostovtseva/Project-audio-player",
     image: "/images/music-player.png",
   },
@@ -27,7 +27,6 @@ const projects = [
     image: "/images/Registered.png",
   },
   {
-
     title: { ua: "Онлайн магазин кофе", en: "Online Coffee Shop" },
     description:
     {
@@ -37,6 +36,45 @@ const projects = [
     tech: ["React", "JavaScript", "Redux Toolkit", "Material UI", "REST API"],
     link: "https://github.com/KaterynaRostovtseva/Coffelane-online-store",
     image: "/images/Coffee page.png",
+  },
+  {
+    title: { ua: "Лендінг Йога", en: "Landing Page Yoga" },
+    description:
+    {
+      ua: `Розробила адаптивний лендінг із сучасним дизайном, використовуючи React, Bootstrap.
+           Реалізовано візуально привабливий макет із динамічними елементами та адаптивністю для різних пристроїв.`,
+      en: `Developed a responsive landing page with a modern design using React, Bootstrap.
+           A visually appealing layout with dynamic elements and adaptability for different devices has been implemented.`,
+    },
+    tech: ["React", "Bootstrap"],
+    link: "https://github.com/KaterynaRostovtseva/Landing-Page-Yoga",
+    image: "/images/Landing-2.png",
+  },
+  {
+    title: { ua: "Лендінг Multiwork", en: " Multiwork Landing " },
+    description:
+    {
+      ua: `Розроблено цільову сторінку для багатофункціональної платформи за допомогою React, Material UI.
+           Розроблено сучасний макет із інтерактивними блоками та адаптивним інтерфейсом.`,
+      en: `Developed a landing page for a multi-functional platform using React, Material UI.
+           A modern layout with interactive blocks and an adaptive interface has been developed.`,
+    },
+    tech: ["React", "Material UI",],
+    link: "https://github.com/KaterynaRostovtseva/Multiwork",
+    image: "/images/Landing-1.png",
+  },
+  {
+    title: { ua: "Лендінг Кофе", en: "Landing Page Coffee" },
+    description:
+    {
+      ua: `Розроблено привабливий інтерфейс користувача для демонстрації продуктів та акцій.
+           Забезпечено дизайн, орієнтований на десктопні пристрої, та плавний користувацький досвід.`,
+      en: `Designed engaging UI to showcase products and promotions.
+           Ensured desktop design and smooth user experience`,
+    },
+    tech: ["React", "Material UI"],
+    link: "https://github.com/KaterynaRostovtseva/Coffelane-online-store",
+    image: "/images/Landing-3.png",
   },
 ];
 

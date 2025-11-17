@@ -23,7 +23,7 @@ export default function BurgerMenu() {
 
   return (
     <div className="md:hidden dark:text-white">
-      <button className="space-y-1.5" onClick={() => setOpen(!open)} aria-label="Menu">
+      <button className="flex flex-col justify-center h-6 gap-1.5" onClick={() => setOpen(!open)} aria-label="Menu">
         <span className={`block h-0.5 w-6 bg-current transition ${open ? "rotate-45 translate-y-2" : ""}`} />
         <span className={`block h-0.5 w-6 bg-current transition ${open ? "opacity-0" : ""}`} />
         <span className={`block h-0.5 w-6 bg-current transition ${open ? "-rotate-45 -translate-y-2" : ""}`} />
@@ -47,8 +47,8 @@ export default function BurgerMenu() {
             </ul>
 
             <div className="flex flex-row justify-center gap-3 py-6 border-t border-gray-200 dark:border-gray-700">
-              <ThemeToggle />
-              <LanguageToggle lang={lang} setLang={setLang} />
+              <ThemeToggle closeMenu={() => setOpen(false)}/>
+              <LanguageToggle lang={lang} setLang={setLang} closeMenu={() => setOpen(false)}/>
             </div>
           </motion.div>
         )}
