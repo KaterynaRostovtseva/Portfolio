@@ -16,7 +16,7 @@ export default function Contact() {
         {t.contacts_subtitle}
       </motion.p>
 
-      <motion.a href="mailto:youremail@example.com" className="w-full sm:w-auto btn-primary" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+      <motion.a href="mailto:katjarost1501@gmail.com" className="w-full sm:w-auto btn-primary" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
         {t.contacts_form_send}
       </motion.a>
     </section>
