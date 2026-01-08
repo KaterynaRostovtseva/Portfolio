@@ -30,8 +30,8 @@ const projects = [
     title: { ua: "Онлайн магазин кофе", en: "Online Coffee Shop" },
     description:
     {
-      ua: "Розробила веб-застосунок для купівлі кави в онлайн-магазині з каталогом товарів, кошиком та оформленням замовлення.",
-      en: "Developed a desktop web app for purchasing coffee with a product catalog, shopping cart, and checkout.",
+      ua: "Розробила адаптивний веб-застосунок для електронної комерції для замовлення кави та аксесуарів з повним циклом покупок та оформлення замовлення.",
+      en: "Developed a responsive e-commerce web application for ordering coffee and accessories with full shopping and checkout flow.",
     },
     tech: ["React", "JavaScript", "Redux Toolkit", "Material UI", "REST API"],
     link: "https://github.com/KaterynaRostovtseva/Coffelane-online-store",
@@ -68,9 +68,9 @@ const projects = [
     description:
     {
       ua: `Розроблено привабливий інтерфейс користувача для демонстрації продуктів та акцій.
-           Забезпечено дизайн, орієнтований на десктопні пристрої, та плавний користувацький досвід.`,
+           Забезпечено дизайн, орієнтований на десктопні та мобільні пристрої, та плавний користувацький досвід.`,
       en: `Designed engaging UI to showcase products and promotions.
-           Ensured desktop design and smooth user experience`,
+           Ensured desktop and mobile design and smooth user experience`,
     },
     tech: ["React", "Material UI"],
     link: "https://github.com/KaterynaRostovtseva/Coffelane-online-store",
