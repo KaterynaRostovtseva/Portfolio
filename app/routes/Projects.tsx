@@ -8,11 +8,11 @@ const projects = [
     title: { ua: "Музичний плеєр", en: "Music Player App" },
     description:
     {
-      ua: "Розробила веб-застосунок для відтворення аудіофайлів, оптимізований для настільних пристроїв.",
-      en: "Developed an interactive web application for playing audio files, optimized for desktop devices.",
+      ua: "Розробила адаптивний веб-застосунок для відтворення аудіофайлів.",
+      en: "Developed a responsive web application for playing audio files.",
     },
     tech: ["React", "JavaScript", "Redux Toolkit", "Material UI", "GraphQL"],
-    link: "https://github.com/KaterynaRostovtseva/Project-audio-player",
+    link: "https://github.com/KaterynaRostovtseva/music-player-react",
     image: "/images/music-player.png",
   },
   {
