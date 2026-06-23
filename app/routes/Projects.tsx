@@ -34,7 +34,7 @@ const projects = [
       en: "Developed a responsive e-commerce web application for ordering coffee and accessories with full shopping and checkout flow.",
     },
     tech: ["React", "JavaScript", "Redux Toolkit", "Material UI", "REST API"],
-    link: "https://github.com/KaterynaRostovtseva/Coffelane-online-store",
+    link: "https://github.com/KaterynaRostovtseva/Coffelane-e-commerce",
     image: "/images/Coffee page.png",
   },
   {
@@ -73,7 +73,7 @@ const projects = [
            Ensured desktop and mobile design and smooth user experience`,
     },
     tech: ["React", "Material UI"],
-    link: "https://github.com/KaterynaRostovtseva/Coffelane-online-store",
+    link: "https://github.com/KaterynaRostovtseva/Coffelane-e-commerce",
     image: "/images/Landing-3.png",
   },
 ];
