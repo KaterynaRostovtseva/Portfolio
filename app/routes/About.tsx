@@ -29,7 +29,7 @@ export default function About() {
           {t.btn_my_projects}
         </MotionA>
 
-        <MotionA href="/CV_Kateryna Rostovtseva_Junior Frontend Developer.pdf" download className="flex-1 sm:w-auto btn-outline" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.97 }}>
+        <MotionA href="/CV_Kateryna Rostovtseva_Frontend Developer.pdf" download className="flex-1 sm:w-auto btn-outline" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.97 }}>
           {t.btn_download_resume}
         </MotionA>
       </motion.div>
