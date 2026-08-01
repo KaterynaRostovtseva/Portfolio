@@ -10,10 +10,12 @@ export const translations = {
         // About me
         hello: "Привіт! Я Катерина Ростовцева",
         frontend: "Фронтенд-розробник",
-        description: `з досвідом роботи в React, Redux Toolkit, Material UI, JavaScript, HTML, CSS.
-                  Мені подобається працювати в команді, вивчати нове та використовувати сучасні технології для розвитку 
-                  своїх навичок. Я захоплена створенням красивих, функціональних та зручних вебсайтів, а також 
-                  спеціалізуюся на розробці адаптивних, інтерактивних вебзастосунків з використанням сучасних технологій.`,
+        description: `що розширює свою діяльність у сфері Fullstack-розробки. 
+        Я спеціалізуюся на створенні масштабованих веб-додатків за допомогою React, 
+        Next.js та TypeScript зі суворою архітектурою Feature-Sliced ​​Design (FSD). 
+        Маю досвід роботи в міжфункціональних Agile-командах (використовуючи Jira/ClickUp),
+         я захоплений розробкою чистого коду, надійного управління станами та сучасних 
+         Fullstack-рішень з Node.js, Express та PostgreSQL.`,
 
 
         btn_my_projects: "Мої проєкти",
@@ -57,10 +59,12 @@ export const translations = {
         // About me
         hello: "Hi! I’m Kateryna Rostovtseva",
         frontend: "Frontend Developer",
-        description: `With experience working with React, Redux Toolkit, Material UI, JavaScript, HTML, and CSS.
-                  I enjoy working in a team, learning new things, and using modern technologies to develop my skills.
-                  I'm passionate about creating beautiful, functional, and user-friendly websites, and I specialize 
-                  in developing responsive, interactive web applications using modern technologies.`,
+        description: `expanding into Fullstack development. 
+        I specialize in building scalable web applications using React, Next.js, 
+        and TypeScript with strict Feature-Sliced Design (FSD) architecture.Experienced 
+        in cross-functional agile teams (using Jira/ClickUp), I am passionate about 
+        engineering clean code, robust state management, and modern Fullstack solutions 
+        with Node.js, Express, and PostgreSQL.`,
 
         // Buttons
         btn_my_projects: "My projects",

@@ -1,19 +1,35 @@
 import { motion } from "framer-motion";
-import { FaReact, FaJs, FaHtml5, FaCss3Alt } from "react-icons/fa";
-import { SiTypescript, SiRedux, SiGraphql, SiTailwindcss, SiMaterialdesign, SiFigma } from "react-icons/si";
+import { FaReact, FaJs, FaHtml5, FaCss3Alt, FaNodeJs } from "react-icons/fa";
+import { 
+  SiTypescript, 
+  SiRedux, 
+  SiTailwindcss, 
+  SiMaterialdesign, 
+  SiFigma, 
+  SiNextdotjs, 
+  SiExpress, 
+  SiPostgresql, 
+  SiPrisma,
+  SiReactrouter
+} from "react-icons/si";
 import { useLang } from "../context/LanguageContext";
 import { useTranslations } from "../hooks/useTranslations";
 
 const skills = [
   { name: "React", icon: <FaReact className="text-blue-500" /> },
+  { name: "Next.js", icon: <SiNextdotjs className="text-black dark:text-white" /> },
+  { name: "React Router 7", icon: <SiReactrouter className="text-red-500" /> },
+  { name: "TypeScript", icon: <SiTypescript className="text-blue-600" /> },
   { name: "JavaScript", icon: <FaJs className="text-yellow-400" /> },
-  { name: "HTML5", icon: <FaHtml5 className="text-orange-500" /> },
-  { name: "CSS3", icon: <FaCss3Alt className="text-blue-400" /> },
+  { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
+  { name: "Express", icon: <SiExpress className="text-gray-500 dark:text-gray-300" /> },
+  { name: "Prisma ORM", icon: <SiPrisma className="text-teal-600" /> },
+  { name: "PostgreSQL", icon: <SiPostgresql className="text-blue-400" /> },
+  { name: "Redux Toolkit / RTK", icon: <SiRedux className="text-purple-500" /> },
   { name: "Tailwind CSS", icon: <SiTailwindcss className="text-sky-400" /> },
   { name: "Material UI", icon: <SiMaterialdesign className="text-indigo-500" /> },
-  { name: "Redux Toolkit", icon: <SiRedux className="text-purple-500" /> },
-  { name: "GraphQL", icon: <SiGraphql className="text-pink-500" /> },
-  { name: "TypeScript", icon: <SiTypescript className="text-blue-600" /> },
+  { name: "HTML5", icon: <FaHtml5 className="text-orange-500" /> },
+  { name: "CSS3", icon: <FaCss3Alt className="text-blue-400" /> },
   { name: "Figma", icon: <SiFigma className="text-red-500" /> },
 ];
 
@@ -38,7 +54,7 @@ export default function Skills() {
         viewport={{ once: true }}
         variants={{
           hidden: { opacity: 0, y: 50 },
-          visible: { opacity: 1, y: 0, transition: { staggerChildren: 0.1 } },
+          visible: { opacity: 1, y: 0, transition: { staggerChildren: 0.05 } }, // Ускорила анимацию появления карточек
         }}
       >
         {skills.map((skill, i) => (
@@ -51,10 +67,11 @@ export default function Skills() {
             }}
           >
             <div className="text-5xl mb-2">{skill.icon}</div>
-            <p className="text-gray-700 dark:text-gray-300 font-medium">{skill.name}</p>
+            <p className="text-gray-700 dark:text-gray-300 font-medium text-center">{skill.name}</p>
           </motion.div>
         ))}
       </motion.div>
     </section>
   );
 }
+
