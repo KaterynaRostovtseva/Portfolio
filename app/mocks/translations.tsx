@@ -10,12 +10,17 @@ export const translations = {
         // About me
         hello: "Привіт! Я Катерина Ростовцева",
         frontend: "Фронтенд-розробник",
-        description: `що розширює свою діяльність у сфері Fullstack-розробки. 
-        Я спеціалізуюся на створенні масштабованих веб-додатків за допомогою React, 
-        Next.js та TypeScript зі суворою архітектурою Feature-Sliced ​​Design (FSD). 
-        Маю досвід роботи в міжфункціональних Agile-командах (використовуючи Jira/ClickUp),
-         я захоплений розробкою чистого коду, надійного управління станами та сучасних 
-         Fullstack-рішень з Node.js, Express та PostgreSQL.`,
+        // description: `що розширює свою діяльність у сфері Fullstack-розробки. 
+        // Я спеціалізуюся на створенні масштабованих веб-додатків за допомогою React, 
+        // Next.js та TypeScript зі суворою архітектурою Feature-Sliced ​​Design (FSD). 
+        // Маю досвід роботи в міжфункціональних Agile-командах (використовуючи Jira/ClickUp),
+        //  я захоплений розробкою чистого коду, надійного управління станами та сучасних 
+        //  Fullstack-рішень з Node.js, Express та PostgreSQL.`,
+        description: `працюю над створенням вебінтерфейсів із використанням React, Next.js, TypeScript. 
+        Маю практичний досвід роботи з компонентною архітектурою, інтеграцією REST API, 
+        управлінням станом і побудовою форм та таблиць. У роботі ціную чистий код, зрозумілу 
+        структуру проєкту й увагу до деталей. Постійно навчаюся, вдосконалюю свої навички та 
+        прагну брати участь у розробці реальних продуктів.`,
 
 
         btn_my_projects: "Мої проєкти",
@@ -59,12 +64,11 @@ export const translations = {
         // About me
         hello: "Hi! I’m Kateryna Rostovtseva",
         frontend: "Frontend Developer",
-        description: `expanding into Fullstack development. 
-        I specialize in building scalable web applications using React, Next.js, 
-        and TypeScript with strict Feature-Sliced Design (FSD) architecture.Experienced 
-        in cross-functional agile teams (using Jira/ClickUp), I am passionate about 
-        engineering clean code, robust state management, and modern Fullstack solutions 
-        with Node.js, Express, and PostgreSQL.`,
+        description: `I work on creating web interfaces using React, Next.js, and TypeScript.
+           I have practical experience with component-based architecture, REST API integration,
+           state management, and building forms and tables. In my work, I value clean code,
+           a clear project structure, and attention to detail. I am constantly learning,
+           refining my skills, and eager to contribute to the development of real-world products.`,
 
         // Buttons
         btn_my_projects: "My projects",
