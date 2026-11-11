@@ -16,7 +16,7 @@ export const translations = {
         // Маю досвід роботи в міжфункціональних Agile-командах (використовуючи Jira/ClickUp),
         //  я захоплений розробкою чистого коду, надійного управління станами та сучасних 
         //  Fullstack-рішень з Node.js, Express та PostgreSQL.`,
-        description: `роблю інтерфейси на React, Next.js і TypeScript. Стан і дані тримаю в Redux Toolkit і RTK Query. Є оплачені замовлення: магазин одягу Great Shop і лендинг на Contentful, їхні репозиторії закриті. Зараз у команді роблю CRM для автошколи — це pet-проєкт. Окремо є командний pet-проєкт Wearly Shop. Шукаю позицію junior frontend.`,
+        description: `роблю інтерфейси на React, Next.js і TypeScript. Стан і дані тримаю в Redux Toolkit і RTK Query. Є оплачені замовлення: магазин одягу Great Shop і лендинг на Contentful (жовтень 2025), їхні репозиторії закриті. Зараз у команді роблю CRM для автошколи — це pet-проєкт. Окремо є командний pet-проєкт Wearly Shop. Шукаю позицію junior frontend.`,
 
 
         btn_my_projects: "Мої проєкти",
@@ -60,7 +60,7 @@ export const translations = {
         // About me
         hello: "Hi! I’m Kateryna Rostovtseva",
         frontend: "Junior Frontend Developer",
-        description: `I build interfaces with React, Next.js, and TypeScript, and I keep state in Redux Toolkit and RTK Query. Paid work includes the Great Shop clothing store and a Contentful landing page. Those repositories are private. I am currently building a driving-school CRM with a team. It is a pet project. Wearly Shop is a separate team pet project. I am looking for a junior frontend role.`,
+        description: `I build interfaces with React, Next.js, and TypeScript, and I keep state in Redux Toolkit and RTK Query. Paid work includes the Great Shop clothing store and a Contentful landing page (October 2025). Those repositories are private. I am currently building a driving-school CRM with a team. It is a pet project. Wearly Shop is a separate team pet project. I am looking for a junior frontend role.`,
 
         // Buttons
         btn_my_projects: "My projects",

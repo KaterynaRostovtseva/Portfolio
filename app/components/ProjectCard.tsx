@@ -3,18 +3,20 @@ export default function ProjectCard({
   description,
   tech = [],
   image,
+  imagePosition = "center",
   links = [],
 }: {
   title: string;
   description: string;
   tech?: string[];
   image?: string;
+  imagePosition?: "center" | "top";
   links?: { href: string; label: string }[];
 }) {
   return (
     <div className="flex flex-col justify-between h-full bg-white dark:bg-gray-900 p-6 rounded-xl shadow-md transition hover:shadow-xl ">
       {image && (
-        <img src={image} alt={title} className="w-full h-48 object-cover rounded-lg mb-4"/>
+        <img src={image} alt={title} className={`w-full h-48 object-cover rounded-lg mb-4 ${imagePosition === "top" ? "object-top" : ""}`}/>
       )}
 
       <div className="flex-1 flex flex-col">

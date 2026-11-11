@@ -16,8 +16,8 @@ const projects = [
   {
     title: { ua: "Лендинг на Contentful", en: "Contentful landing" },
     description: {
-      ua: "Оплачений клієнтський лендинг. Контент публікується в Contentful і виводиться в React. Репозиторій закритий.",
-      en: "Paid client landing page. Content is published in Contentful and rendered in React. The repository is private.",
+      ua: "Оплачений клієнтський лендинг, жовтень 2025. Контент публікується в Contentful і виводиться в React. Репозиторій закритий.",
+      en: "Paid client landing page, Oct 2025. Content is published in Contentful and rendered in React. The repository is private.",
     },
     tech: ["React", "Contentful"],
     links: [],
@@ -38,6 +38,8 @@ const projects = [
       en: "Team pet project for Team Challenge, separate from Great Shop. Clothing store with a catalog, account, promo codes, and an admin panel.",
     },
     tech: ["Next.js", "React", "TypeScript", "Redux Toolkit Query", "REST API"],
+    image: "/images/wearly-shop-store.png",
+    imagePosition: "top" as const,
     links: [{ href: "https://onwearly.pp.ua/", label: { ua: "Відкрити сайт", en: "Open site" } }],
   },
   {
@@ -71,7 +73,10 @@ const projects = [
     },
     tech: ["React", "Redux Toolkit", "Material UI", "Web Audio API"],
     image: "/images/music-player.png",
-    links: [{ href: "https://github.com/KaterynaRostovtseva/music-player-react", label: { ua: "Код на GitHub", en: "GitHub code" } }],
+    links: [
+      { href: "https://music-player-reac.vercel.app/", label: { ua: "Відкрити сайт", en: "Open site" } },
+      { href: "https://github.com/KaterynaRostovtseva/music-player-react", label: { ua: "Код на GitHub", en: "GitHub code" } },
+    ],
   },
 ];
 
@@ -106,6 +111,7 @@ export default function Projects() {
               description={project.description[lang]}
               tech={project.tech}
               image={project.image}
+              imagePosition={"imagePosition" in project ? project.imagePosition : "center"}
               links={(project.links ?? []).map((item) => ({ href: item.href, label: item.label[lang] }))}
             />
           </motion.div>

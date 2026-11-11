@@ -8,7 +8,7 @@ GitHub: https://github.com/KaterynaRostovtseva
 LinkedIn: https://www.linkedin.com/in/kateryna-rostovtseva-frontend/
 
 SUMMARY
-Junior Frontend Developer with hands-on project experience since February 2024, including paid client work. I build web interfaces with React, Next.js, TypeScript, and REST APIs, and I manage state with Redux Toolkit and RTK Query. Paid work includes Great Shop, a clothing store on Next.js, and a landing page on Contentful. Those repositories are private and belong to the clients. I am currently building a driving-school CRM with a team. It is a pet project. Wearly Shop is a separate team pet project. Looking for a junior frontend role on a product team.
+Junior Frontend Developer with hands-on project experience since February 2024, including paid client work. I build web interfaces with React, Next.js, TypeScript, and REST APIs, and I manage state with Redux Toolkit and RTK Query. Paid work includes Great Shop, a clothing store on Next.js, and a landing page on Contentful (October 2025). Those repositories are private and belong to the clients. I am currently building a driving-school CRM with a team. It is a pet project. Wearly Shop is a separate team pet project. Looking for a junior frontend role on a product team.
 
 SKILLS
 Languages: JavaScript, TypeScript, HTML5, CSS3
@@ -26,7 +26,7 @@ Private repository. The code belongs to the client.
 - Organized the codebase with Feature-Sliced Design. State and cache with Redux Toolkit and RTK Query.
 Tech: Next.js, React, TypeScript, Redux Toolkit, RTK Query, Tailwind CSS
 
-Frontend Developer | Landing page, paid client project
+Frontend Developer | Landing page, paid client project | Oct 2025
 Private repository. The code belongs to the client.
 - Built a landing page in React and rendered content published in Contentful.
 Tech: React, Contentful
@@ -62,6 +62,7 @@ GitHub: https://github.com/KaterynaRostovtseva/Multiwork
 Tech: React, Redux Toolkit, Strapi, Material UI, React Router, Axios, React Beautiful DnD
 
 Audio player | Frontend | Feb 2024 – Mar 2024
+Live: https://music-player-reac.vercel.app/
 GitHub: https://github.com/KaterynaRostovtseva/music-player-react
 - Playback controls, track search, and a visualizer synced to audio through the Web Audio API.
 - Playlists with create, update, delete, and drag-and-drop reordering. Profile for avatar and credentials.
