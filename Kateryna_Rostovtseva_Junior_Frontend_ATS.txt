@@ -1,0 +1,75 @@
+Kateryna Rostovtseva
+Junior Frontend Developer
+Ukraine | Open to remote
+Phone: +380 98 475 2312
+Email: katjarost1501@gmail.com
+Portfolio: https://portfolio-kateryna.vercel.app
+GitHub: https://github.com/KaterynaRostovtseva
+LinkedIn: https://www.linkedin.com/in/kateryna-rostovtseva-frontend/
+
+SUMMARY
+Junior Frontend Developer with hands-on project experience since February 2024, including paid client work. I build web interfaces with React, Next.js, TypeScript, and REST APIs, and I manage state with Redux Toolkit and RTK Query. Paid work includes Great Shop, a clothing store on Next.js, and a landing page on Contentful. Those repositories are private and belong to the clients. I am currently building a driving-school CRM with a team. It is a pet project. Wearly Shop is a separate team pet project. Looking for a junior frontend role on a product team.
+
+SKILLS
+Languages: JavaScript, TypeScript, HTML5, CSS3
+Frontend: React, Next.js, React Router, responsive layout, Tailwind CSS, Material UI, Ant Design
+State and API: Redux Toolkit, RTK Query, Axios, REST API
+CMS: Strapi, Contentful
+Tools: Git, GitHub, Vite, Vercel, Feature-Sliced Design, Jira, ClickUp
+
+COMMERCIAL WORK
+Great Shop — clothing store | Paid client project | Feb 2026 – Sep 2026
+Private repository. The code belongs to the client.
+- Storefront: catalog, categories and brands, product cards, size and color selection, cart, and checkout.
+- Registration, login, and a personal account. Ukrainian and English. Discounts, offers, and promo codes at checkout.
+- Admin: products and variants, categories and brands, orders, users, store data, discounts, and promo codes with usage rules.
+- Organized the codebase with Feature-Sliced Design. State and cache with Redux Toolkit and RTK Query.
+Tech: Next.js, React, TypeScript, Redux Toolkit, RTK Query, Tailwind CSS
+
+Frontend Developer | Landing page, paid client project
+Private repository. The code belongs to the client.
+- Built a landing page in React and rendered content published in Contentful.
+Tech: React, Contentful
+
+PROJECTS
+Driving School CRM | Team pet project | Aug 2026 – Present
+Team Challenge.
+- Role-based screens for students, administrators, theory teachers, and driving instructors.
+- Dashboards, student records, schedules, practical-lesson booking, online theory, and tests.
+- REST API through RTK Query. Layout for desktop, tablet, and mobile.
+Tech: React, TypeScript, Redux Toolkit, RTK Query, Ant Design
+
+Wearly Shop — clothing store | Team pet project
+Live: https://onwearly.pp.ua/
+Team Challenge. Separate from the paid client store Great Shop.
+- Storefront: catalog, categories and brands, product cards, size and color, cart, checkout, and a personal account. Ukrainian and English.
+- Discounts, offers, and promo codes at checkout.
+- Admin: products and variants, categories and brands, orders, users, store data, discounts, and promo codes.
+Tech: Next.js, React, TypeScript, Redux Toolkit Query, REST API
+
+Coffeelane — coffee store | Frontend | May 2025 – Feb 2026
+GitHub: https://github.com/KaterynaRostovtseva/Coffelane-e-commerce
+- Catalog with category filters, cart with live totals, checkout, and user authentication.
+- Admin area for products, orders, image upload, and editing item details.
+- Responsive layout for mobile and desktop. Material UI. Production build with Vite.
+Tech: React, Redux Toolkit, Material UI, REST API, Axios, Vite
+
+Multiwork — team collaboration | Frontend | Jul 2024 – May 2025
+GitHub: https://github.com/KaterynaRostovtseva/Multiwork
+- Create projects, search people by skills, assemble a team, track project subscriptions.
+- Content from Strapi. Authentication with form validation, protected routes in React Router, CRUD with Axios and Fetch.
+- Responsive Material UI, modal forms, drag-and-drop tasks.
+Tech: React, Redux Toolkit, Strapi, Material UI, React Router, Axios, React Beautiful DnD
+
+Audio player | Frontend | Feb 2024 – Mar 2024
+GitHub: https://github.com/KaterynaRostovtseva/music-player-react
+- Playback controls, track search, and a visualizer synced to audio through the Web Audio API.
+- Playlists with create, update, delete, and drag-and-drop reordering. Profile for avatar and credentials.
+Tech: React, Redux Toolkit, Material UI, Web Audio API
+
+EDUCATION
+A-Level Ukraine — Frontend and Web Development course
+
+LANGUAGES
+Ukrainian — native
+English — B1. I read technical documentation and write in English. Spoken English is in progress.

@@ -10,6 +10,7 @@ import {
   SiStrapi,
   SiContentful,
   SiVite,
+  SiAntdesign,
 } from "react-icons/si";
 import { useLang } from "../context/LanguageContext";
 import { useTranslations } from "../hooks/useTranslations";
@@ -22,6 +23,7 @@ const skills = [
   { name: "Redux Toolkit", icon: <SiRedux className="text-purple-500" /> },
   { name: "Tailwind CSS", icon: <SiTailwindcss className="text-sky-400" /> },
   { name: "Material UI", icon: <SiMaterialdesign className="text-indigo-500" /> },
+  { name: "Ant Design", icon: <SiAntdesign className="text-sky-600" /> },
   { name: "HTML5", icon: <FaHtml5 className="text-orange-500" /> },
   { name: "CSS3", icon: <FaCss3Alt className="text-blue-400" /> },
   { name: "Strapi", icon: <SiStrapi className="text-indigo-600" /> },

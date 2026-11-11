@@ -23,6 +23,15 @@ const projects = [
     links: [],
   },
   {
+    title: { ua: "CRM автошколи", en: "Driving School CRM" },
+    description: {
+      ua: "Командний pet-проєкт Team Challenge, серпень 2026 – зараз. Екрани для учнів, адміністраторів, викладачів теорії та інструкторів. Розклад, запис на практику, теорія онлайн і тести.",
+      en: "Team pet project for Team Challenge, Aug 2026 – present. Screens for students, administrators, theory teachers, and instructors. Schedules, practical-lesson booking, online theory, and tests.",
+    },
+    tech: ["React", "TypeScript", "Redux Toolkit", "RTK Query", "Ant Design"],
+    links: [],
+  },
+  {
     title: { ua: "Wearly Shop", en: "Wearly Shop" },
     description: {
       ua: "Командний pet-проєкт Team Challenge, окремий від Great Shop. Магазин одягу: каталог, кабінет, промокоди й адмінка.",
