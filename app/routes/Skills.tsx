@@ -1,16 +1,15 @@
 import { motion } from "framer-motion";
-import { FaReact, FaJs, FaHtml5, FaCss3Alt, FaNodeJs } from "react-icons/fa";
-import { 
-  SiTypescript, 
-  SiRedux, 
-  SiTailwindcss, 
-  SiMaterialdesign, 
-  SiFigma, 
-  SiNextdotjs, 
-  SiExpress, 
-  SiPostgresql, 
-  SiPrisma,
-  SiReactrouter
+import { FaReact, FaHtml5, FaCss3Alt } from "react-icons/fa";
+import {
+  SiTypescript,
+  SiRedux,
+  SiTailwindcss,
+  SiMaterialdesign,
+  SiNextdotjs,
+  SiReactrouter,
+  SiStrapi,
+  SiContentful,
+  SiVite,
 } from "react-icons/si";
 import { useLang } from "../context/LanguageContext";
 import { useTranslations } from "../hooks/useTranslations";
@@ -18,19 +17,16 @@ import { useTranslations } from "../hooks/useTranslations";
 const skills = [
   { name: "React", icon: <FaReact className="text-blue-500" /> },
   { name: "Next.js", icon: <SiNextdotjs className="text-black dark:text-white" /> },
-  { name: "React Router 7", icon: <SiReactrouter className="text-red-500" /> },
+  { name: "React Router", icon: <SiReactrouter className="text-red-500" /> },
   { name: "TypeScript", icon: <SiTypescript className="text-blue-600" /> },
-  // { name: "JavaScript", icon: <FaJs className="text-yellow-400" /> },
-  // { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
-  // { name: "Express", icon: <SiExpress className="text-gray-500 dark:text-gray-300" /> },
-  // { name: "Prisma ORM", icon: <SiPrisma className="text-teal-600" /> },
-  // { name: "PostgreSQL", icon: <SiPostgresql className="text-blue-400" /> },
-  { name: "Redux Toolkit / RTK", icon: <SiRedux className="text-purple-500" /> },
+  { name: "Redux Toolkit", icon: <SiRedux className="text-purple-500" /> },
   { name: "Tailwind CSS", icon: <SiTailwindcss className="text-sky-400" /> },
   { name: "Material UI", icon: <SiMaterialdesign className="text-indigo-500" /> },
   { name: "HTML5", icon: <FaHtml5 className="text-orange-500" /> },
   { name: "CSS3", icon: <FaCss3Alt className="text-blue-400" /> },
-  { name: "Figma", icon: <SiFigma className="text-red-500" /> },
+  { name: "Strapi", icon: <SiStrapi className="text-indigo-600" /> },
+  { name: "Contentful", icon: <SiContentful className="text-sky-600" /> },
+  { name: "Vite", icon: <SiVite className="text-purple-600" /> },
 ];
 
 export default function Skills() {

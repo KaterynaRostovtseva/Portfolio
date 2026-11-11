@@ -67,7 +67,7 @@ export default function Header() {
           <a href="https://github.com/KaterynaRostovtseva" target="_blank">
             <img src="/icons/github.svg" alt="GitHub" className="w-6 h-6 hover:opacity-80" />
           </a>
-          <a href="https://www.linkedin.com/in/kateryna-rostovtseva-123a58171/" target="_blank">
+          <a href="https://www.linkedin.com/in/kateryna-rostovtseva-frontend/" target="_blank">
             <img src="/icons/linkedin.svg" alt="linkedin" className="w-6 h-6 hover:opacity-80" />
           </a>
           <a href="https://t.me/katjarost" target="_blank">

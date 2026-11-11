@@ -2,16 +2,14 @@ export default function ProjectCard({
   title,
   description,
   tech = [],
-  link,
   image,
-  githubText, 
+  links = [],
 }: {
   title: string;
   description: string;
   tech?: string[];
-  link: string;
   image?: string;
-  githubText: string; 
+  links?: { href: string; label: string }[];
 }) {
   return (
     <div className="flex flex-col justify-between h-full bg-white dark:bg-gray-900 p-6 rounded-xl shadow-md transition hover:shadow-xl ">
@@ -31,9 +29,15 @@ export default function ProjectCard({
         </div>
       </div>
 
-      <a href={link} target="_blank" rel="noopener noreferrer" className="mt-auto inline-block btn-outline">
-        {githubText}
-      </a>
+      {links.length > 0 && (
+        <div className="mt-auto flex flex-wrap gap-2">
+          {links.map((item) => (
+            <a key={item.href} href={item.href} target="_blank" rel="noopener noreferrer" className="inline-block btn-outline">
+              {item.label}
+            </a>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

@@ -28,8 +28,8 @@ export default function Services() {
     icon: <Palette className="w-10 h-10 text-blue-500" />,
     title: { ua: "UI/UX дизайн", en: "UI/UX Design" },
     description: {
-      ua: "Точно втілюю Figma-дизайн у чисті та зручні інтерфейси.",
-      en: "I accurately implement Figma designs into neat and user-friendly interfaces.",
+      ua: "Збираю інтерфейси на Tailwind CSS і Material UI.",
+      en: "I build interfaces with Tailwind CSS and Material UI.",
     },
   },
   {

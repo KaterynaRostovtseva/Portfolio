@@ -33,7 +33,7 @@ export default function Footer() {
           <a href="https://github.com/KaterynaRostovtseva" target="_blank" rel="noopener noreferrer">
             <img src="/icons/github.svg" alt="GitHub" className="w-6 h-6 hover:opacity-80 transition" />
           </a>
-          <a href="https://www.linkedin.com/in/kateryna-rostovtseva-123a58171/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/kateryna-rostovtseva-frontend/" target="_blank" rel="noopener noreferrer">
             <img src="/icons/linkedin.svg" alt="LinkedIn" className="w-6 h-6 hover:opacity-80 transition" />
           </a>
           <a href="https://t.me/katjarost" target="_blank" rel="noopener noreferrer">

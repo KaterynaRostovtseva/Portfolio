@@ -5,76 +5,64 @@ import { useTranslations } from "../hooks/useTranslations";
 
 const projects = [
   {
-    title: { ua: "Музичний плеєр", en: "Music Player App" },
-    description:
-    {
-      ua: "Розробила адаптивний веб-застосунок для відтворення аудіофайлів.",
-      en: "Developed a responsive web application for playing audio files.",
+    title: { ua: "Great Shop", en: "Great Shop" },
+    description: {
+      ua: "Оплачений клієнтський магазин одягу, лютий 2026 – вересень 2026. Каталог, особистий кабінет, знижки, промокоди й адмінка. Репозиторій закритий.",
+      en: "Paid client clothing store, Feb 2026 – Sep 2026. Catalog, personal account, discounts, promo codes, and an admin panel. The repository is private.",
     },
-    tech: ["React", "JavaScript", "Redux Toolkit", "Material UI", "GraphQL"],
-    link: "https://github.com/KaterynaRostovtseva/music-player-react",
-    image: "/images/music-player.png",
+    tech: ["Next.js", "React", "TypeScript", "Redux Toolkit", "RTK Query", "Tailwind CSS"],
+    links: [],
+  },
+  {
+    title: { ua: "Лендинг на Contentful", en: "Contentful landing" },
+    description: {
+      ua: "Оплачений клієнтський лендинг. Контент публікується в Contentful і виводиться в React. Репозиторій закритий.",
+      en: "Paid client landing page. Content is published in Contentful and rendered in React. The repository is private.",
+    },
+    tech: ["React", "Contentful"],
+    links: [],
+  },
+  {
+    title: { ua: "Wearly Shop", en: "Wearly Shop" },
+    description: {
+      ua: "Командний pet-проєкт Team Challenge, окремий від Great Shop. Магазин одягу: каталог, кабінет, промокоди й адмінка.",
+      en: "Team pet project for Team Challenge, separate from Great Shop. Clothing store with a catalog, account, promo codes, and an admin panel.",
+    },
+    tech: ["Next.js", "React", "TypeScript", "Redux Toolkit Query", "REST API"],
+    links: [{ href: "https://onwearly.pp.ua/", label: { ua: "Відкрити сайт", en: "Open site" } }],
+  },
+  {
+    title: { ua: "Coffeelane", en: "Coffeelane" },
+    description: {
+      ua: "Магазин кави, травень 2025 – лютий 2026. Каталог, кошик, оформлення замовлення, авторизація й адмінка.",
+      en: "Coffee store, May 2025 – Feb 2026. Catalog, cart, checkout, authentication, and an admin area.",
+    },
+    tech: ["React", "Redux Toolkit", "Material UI", "REST API", "Axios", "Vite"],
+    image: "/images/Coffee page.png",
+    links: [
+      { href: "https://coffelane.vercel.app/", label: { ua: "Відкрити сайт", en: "Open site" } },
+      { href: "https://github.com/KaterynaRostovtseva/Coffelane-e-commerce", label: { ua: "Код на GitHub", en: "GitHub code" } },
+    ],
   },
   {
     title: { ua: "Multiwork", en: "Multiwork" },
-    description:
-    {
-      ua: "Розробила веб-застосунок, який об'єднує спеціалістів у команди для сприяння професійному зростанню та співпраці.",
-      en: "Developed a web application that connects specialists into teams to promote professional growth and collaboration.",
+    description: {
+      ua: "Платформа для збору команди, липень 2024 – травень 2025. Проєкти, пошук за навичками, авторизація, закриті маршрути. Контент зі Strapi.",
+      en: "Team platform, Jul 2024 – May 2025. Projects, search by skills, authentication, and protected routes. Content comes from Strapi.",
     },
-    tech: ["React", "JavaScript", "Redux Toolkit", "Strapi", "Material UI", "REST API"],
-    link: "https://github.com/KaterynaRostovtseva/Multiwork",
+    tech: ["React", "Redux Toolkit", "Strapi", "Material UI", "React Router", "Axios"],
     image: "/images/Registered.png",
+    links: [{ href: "https://github.com/KaterynaRostovtseva/Multiwork", label: { ua: "Код на GitHub", en: "GitHub code" } }],
   },
   {
-    title: { ua: "Онлайн магазин кофе", en: "Online Coffee Shop" },
-    description:
-    {
-      ua: "Розробила адаптивний веб-застосунок для електронної комерції для замовлення кави та аксесуарів з повним циклом покупок та оформлення замовлення.",
-      en: "Developed a responsive e-commerce web application for ordering coffee and accessories with full shopping and checkout flow.",
+    title: { ua: "Аудіоплеєр", en: "Audio player" },
+    description: {
+      ua: "Плеєр, лютий 2024 – березень 2024. Відтворення, пошук, плейлисти, перетягування треків і візуалізатор через Web Audio API.",
+      en: "Player, Feb 2024 – Mar 2024. Playback, search, playlists, drag-and-drop, and a visualizer through the Web Audio API.",
     },
-    tech: ["React", "JavaScript", "Redux Toolkit", "Material UI", "REST API"],
-    link: "https://github.com/KaterynaRostovtseva/Coffelane-e-commerce",
-    image: "/images/Coffee page.png",
-  },
-  {
-    title: { ua: "Лендінг Йога", en: "Landing Page Yoga" },
-    description:
-    {
-      ua: `Розробила адаптивний лендінг із сучасним дизайном, використовуючи React, Bootstrap.
-           Реалізовано візуально привабливий макет із динамічними елементами та адаптивністю для різних пристроїв.`,
-      en: `Developed a responsive landing page with a modern design using React, Bootstrap.
-           A visually appealing layout with dynamic elements and adaptability for different devices has been implemented.`,
-    },
-    tech: ["React", "Bootstrap"],
-    link: "https://github.com/KaterynaRostovtseva/Landing-Page-Yoga",
-    image: "/images/Landing-2.png",
-  },
-  {
-    title: { ua: "Лендінг Multiwork", en: " Multiwork Landing " },
-    description:
-    {
-      ua: `Розроблено цільову сторінку для багатофункціональної платформи за допомогою React, Material UI.
-           Розроблено сучасний макет із інтерактивними блоками та адаптивним інтерфейсом.`,
-      en: `Developed a landing page for a multi-functional platform using React, Material UI.
-           A modern layout with interactive blocks and an adaptive interface has been developed.`,
-    },
-    tech: ["React", "Material UI",],
-    link: "https://github.com/KaterynaRostovtseva/Multiwork",
-    image: "/images/Landing-1.png",
-  },
-  {
-    title: { ua: "Лендінг Кофе", en: "Landing Page Coffee" },
-    description:
-    {
-      ua: `Розроблено привабливий інтерфейс користувача для демонстрації продуктів та акцій.
-           Забезпечено дизайн, орієнтований на десктопні та мобільні пристрої, та плавний користувацький досвід.`,
-      en: `Designed engaging UI to showcase products and promotions.
-           Ensured desktop and mobile design and smooth user experience`,
-    },
-    tech: ["React", "Material UI"],
-    link: "https://github.com/KaterynaRostovtseva/Coffelane-e-commerce",
-    image: "/images/Landing-3.png",
+    tech: ["React", "Redux Toolkit", "Material UI", "Web Audio API"],
+    image: "/images/music-player.png",
+    links: [{ href: "https://github.com/KaterynaRostovtseva/music-player-react", label: { ua: "Код на GitHub", en: "GitHub code" } }],
   },
 ];
 
@@ -108,9 +96,8 @@ export default function Projects() {
               title={project.title[lang]}
               description={project.description[lang]}
               tech={project.tech}
-              link={project.link}
               image={project.image}
-              githubText={t.projects_github}
+              links={(project.links ?? []).map((item) => ({ href: item.href, label: item.label[lang] }))}
             />
           </motion.div>
         ))}
